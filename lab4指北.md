@@ -78,7 +78,7 @@ cloudera中的ant已经下载好了，在如下文件夹路径
 
 现在他在Lab4文件夹里生成了classes，dist 文件。老师的视频里还有一个inputfile.txt文件，我图片里的文件其实是应该到后面hdfs的部分再用的，现在不影响什么，不弄也行。
 
-检查一下dist文件，里面已经有了WordCount.jar文件，现在和老师视频对应上了。（这一步只是一个小demo，这个jar包后面做完项目会重新生成的建议删掉当前这个）
+检查一下dist文件，里面已经有了WordCount.jar文件，现在和老师视频对应上了。（这一步只是一个小demo，这个jar包后面做完项目会重新生成的当前这个不用管）
 
 <img src="lab4指北.assets/image-20231203131044837.png" alt="image-20231203131044837" style="zoom:50%;" />
 
