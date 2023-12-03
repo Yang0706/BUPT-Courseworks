@@ -200,7 +200,7 @@ part 1 done!
 
 ### Task 2
 
-这里lab sheet中明显老师想让我们根据上面的内容独立进行多个mapper的操作。
+这里lab sheet中明显老师想让我们根据上面的内容独立进行多个mapper/reducer的操作。
 
 首先在qmplus上下载**[onehundredM.txt](https://qmplus.qmul.ac.uk/mod/resource/view.php?id=1480095)** 。
 
