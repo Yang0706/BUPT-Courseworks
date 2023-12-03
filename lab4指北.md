@@ -132,7 +132,7 @@ In this first lab we will use the `IntWritable` object, which stores ==an int, a
 
 三个代码完成后开始进行执行
 
-The code of your MapReduce project is complete. In order to create a package ready to be executed by Hadoop go to the project ==root folder== and invoke the ant command: **ant clean dist**他这里会再生成一个dist里的wordcount.jar，不知道替没替换原来的，所以之前建议直接删掉。
+The code of your MapReduce project is complete. In order to create a package ready to be executed by Hadoop go to the project ==root folder== and invoke the ant command: **ant clean dist**他这里会再生成一个dist里的wordcount.jar，把原来的clean掉
 
 <img src="lab4指北.assets/image-20231203144846279.png" alt="image-20231203144846279" style="zoom:67%;" />
 
