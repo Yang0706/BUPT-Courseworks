@@ -90,7 +90,7 @@ over
 
 ### hdfs命令搭建环境
 
-First, let’s have a look at what is currently available in  HDFS: You can browse the contents of a remote HDFS folder through the **hadoop fs –ls** command, which is similar to the Unix listing command. If you specify no parameters you will check your empty home holder.
+First, let’s have a look at what is currently available in  HDFS: You can browse the contents of a remote HDFS folder through the **hadoop fs -ls** command, which is similar to the Unix listing command. If you specify no parameters you will check your empty home holder.
 
 You can check the root folder of HDFS by running  **hadoop fs -ls /**
 
@@ -98,13 +98,13 @@ You can check the root folder of HDFS by running  **hadoop fs -ls /**
 
 For our lab we will need to copy the input file into our HDFS folder. First, we need to create a new folder in our HDFS personal space to store the input data. That operation can be performed with the –mkdir option:
 
- **hadoop fs –mkdir input**
+ **hadoop fs -mkdir input**
 
 If you browse the contents of your folder you should now see the newly created folder. Remember, you can see the files/folders in HDFS using the following command: **hadoop fs -ls**
 
 <img src="lab4指北.assets/image-20231203131102989.png" alt="image-20231203131102989" style="zoom:50%;" />
 
-The input for this job is going to be a small file (*[sherlock.txt](https://qmplus.qmul.ac.uk/mod/resource/view.php?id=1480094)*). This text file collects several of the works of Arthur Conan Doyle (as packaged by Project Gutenberg). You can download this from QMPlus. When you download it, it will be in your local filesystem - **not in HDFS**. Hence, we must copy the text file to the HDFS. File transfer from a local filesystem to Hadoop is perform using the **–copyFromLocal** command:
+The input for this job is going to be a small file (*[sherlock.txt](https://qmplus.qmul.ac.uk/mod/resource/view.php?id=1480094)*). This text file collects several of the works of Arthur Conan Doyle (as packaged by Project Gutenberg). You can download this from QMPlus. When you download it, it will be in your local filesystem - **not in HDFS**. Hence, we must copy the text file to the HDFS. File transfer from a local filesystem to Hadoop is perform using the **-copyFromLocal** command:
 
 Go in your Terminal, and move to the folder where you downloaded the sherlock.txt file. Then run the follslowing command:
 
@@ -168,7 +168,7 @@ done！
 
 然后把hdfs上的output放回本地
 
-hadoop fs –copyToLocal <hdfsfile> <localdestination>
+hadoop fs -copyToLocal <hdfsfile> <localdestination>
 
 其实就是在你本地要output的文件夹里敲`hadoop fs -copyToLocal out/part-r-00000`
 
@@ -180,7 +180,7 @@ hadoop fs –copyToLocal <hdfsfile> <localdestination>
 
 After retrieving the output you can remove the output folder through the –rmr fs command. If the designated output folder was out, you can remove it by doing:
 
-`hadoop fs –rmr out`
+`hadoop fs -rmr out`
 
 报错1: Unknown command
 
