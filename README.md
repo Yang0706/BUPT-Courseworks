@@ -5,6 +5,7 @@ Some of the project codes or babysitter tutorials<br>
 个人心得体会/让你最快上手的不太保姆？教程<br>
 ***
 version 1.0 Update time 22:10 2023/12/3
+version 1.1 Update time 0:26 2023/12/9 感谢jtw同学的修正，有一些直接从labsheet上粘过来的command中‘-’的格式不对导致报错。
 ***
 食用说明：
 * 修改了一些lab sheet里的小bug
